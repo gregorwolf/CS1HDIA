@@ -1,0 +1,19 @@
+_schema-version: "2.1"
+ID: CS1HDIA
+version: 0.0.1
+modules:
+- name: CS1HDIAdb
+  type: hdb
+  path: CS1HDIAdb
+  requires:
+  - name: hdi_CS1HDIAdb
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: hdi_CS1HDIAdb
+  type: com.sap.xs.hdi-container
+  parameters:
+    config:
+      schema: CS1A_schema
+  properties:
+    hdi-container-name: ${service-name}

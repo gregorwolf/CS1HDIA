@@ -1,0 +1,13 @@
+{
+    "role": {
+        "name": "CS1XHDIA",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT",
+                    "SELECT METADATA"
+                ]
+            }
+        ]
+    }
+}
