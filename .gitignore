@@ -1,2 +1,4 @@
 mta_archives/
 default-env*.json
+# auto generated wildcard
+CS1HDIAdb/.env
